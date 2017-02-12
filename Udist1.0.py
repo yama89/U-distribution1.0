@@ -79,8 +79,8 @@ while ite < 1e4:
 
  chk1 = 0
  while chk1 == 0:
-  x_strt = np.random.randint(1,10)
-  y_strt = np.random.randint(1,10)
+  x_strt = np.random.randint(1,11)
+  y_strt = np.random.randint(1,11)
 # print nindex
   chk1 = nindex.count([x_strt,y_strt])
 # if chk == 0:
@@ -93,8 +93,8 @@ while ite < 1e4:
 
  chk2 = 0
  while chk2 == 0:
-  x_dest = np.random.randint(1,10)
-  y_dest = np.random.randint(1,10)
+  x_dest = np.random.randint(1,11)
+  y_dest = np.random.randint(1,11)
   chk2 = nindex.count([x_dest,y_dest])
   print chk2
 
