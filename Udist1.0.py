@@ -103,8 +103,8 @@ while ite < 1e4:
 #  print 'Zero sample for destination was detected'
  dest = nindex.index([x_dest,y_dest])
 
- x[strt] = float(x_dest*10)-np.random.uniform(0.00001,10)
- y[strt] = float(y_dest*10)-np.random.uniform(0.00001,10)
+ x[strt] = float(x_dest*10)-np.random.uniform(0,10)
+ y[strt] = float(y_dest*10)-np.random.uniform(0,10)
  print 'dest x,y index:  ', x_dest,' ', y_dest
  print 'dest crd: ',x[strt],y[strt]
  print
